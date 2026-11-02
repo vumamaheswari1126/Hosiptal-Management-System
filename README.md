@@ -1,66 +1,71 @@
-HOSPITAL MANAGEMENT SYSTEM-JAVA
+🏥 Hospital Management System - Java
 
-The Hospital Management System is a console-based Java application developed to manage
-basic hospital operations. It allows users to register patients, add doctors, book appointments, 
-cancel appointments, and generate bills through a menu-driven interface.
-This project focuses on implementing Core Java concepts, Object-Oriented Programming (OOP), 
-Collections, and input validation.
+A console-based Hospital Management System developed using Core Java to manage patients,
+doctors,appointments, and billing operations.
 
---> Features
-1.Patient Management
-Register new patients.
-Store and manage patient details.
-View patient information.
-Validate duplicate patient IDs.
-2.Doctor Management
+📌 Project Overview
+
+This application provides a simple menu-driven interface to perform basic hospital management 
+operations. It uses Object-Oriented Programming concepts and ArrayList to store and manage records.
+
+✨ Features
+1. Patient Management
+.Register new patients.
+.View patient details.
+.Validate duplicate patient IDs.
+2. Doctor Management
 Add doctor details.
-Store doctor name, specialization, and consultation fee.
 View doctor information.
+Manage specialization and consultation fees.
 Validate doctor availability.
-3.Appointment Management
+3. Appointment Management
 Book appointments for registered patients.
 Select doctors using Doctor ID.
-Schedule appointments based on date and time.
-Prevent duplicate doctor appointments at the same date and time.
+Schedule appointments by date and time.
+Prevent duplicate appointments for the same doctor.
 Cancel appointments.
-4.Billing Management
+4. Billing Management
 Generate patient bills.
 Calculate consultation fees and additional charges.
 Validate payment details.
-5.Input Validation
-Handle invalid inputs.
+5. Input Validation
 Validate patient and doctor IDs.
-Display appropriate error messages when records are not found.
-
--->Technologies Used
-Programming Language: Java
-IDE: Eclipse
-Concepts: Core Java, OOP, Encapsulation, ArrayList, Loops, Conditional Statements, Exception Handling
-Application Type: Console-Based Application
-
---> Project Structure
-HospitalManagementSystem/
+Handle invalid inputs.
+Display appropriate error messages.
+Handle records that are not found.
+🛠️ Technologies Used
+Technology	Description
+Java	Programming Language
+Eclipse IDE	Development Environment
+ArrayList	Data Management
+OOP	Object-Oriented Programming
+Exception Handling	Error Handling
+📂 Project Structure
+Hospital-Management-System/
 │
 ├── src/
-│   ├── Details/
-│   │   ├── Patient.java
-│   │   ├── Doctor.java
-│   │   ├── Appointment.java
-│   │   ├── Bill.java
-│   │   └── Management.java
+│   └── Details/
+│       ├── Patient.java
+│       ├── Doctor.java
+│       ├── Appointment.java
+│       ├── Bill.java
+│       └── Management.java
 │
 └── README.md
+▶️ How to Run the Project
 
- -->How to Run the Project
+Clone this repository:
 
-Clone the repository:git clone <your-repository-url>
+git clone YOUR_REPOSITORY_URL
 Open Eclipse IDE.
-Import the project into Eclipse.
-Open the Management.java file.
-Run the application as a Java Application.
-Follow the menu displayed in the console.
-
-Project purpose
-  To Gained practical experience in Core Java,understood Object-Oriented Programming concepts,
-learned to manage multiple records using ArrayList implemented CRUD operations,practiced validation
-and exception handling,improved problem-solving and logical thinking.
+Import the project.
+Open Management.java.
+Run as Java Application.
+Follow the menu options displayed in the console.
+🎯 Learning Outcomes
+Practical experience with Core Java.
+Understanding of OOP concepts.
+Working with ArrayList.
+Implementing CRUD operations.
+Exception handling and input validation.
+Developing a menu-driven console application.oved problem-solving and logical thinking.
