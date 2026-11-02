@@ -1,46 +1,71 @@
-🏥 Hospital Management System - Java
+<h1 align="center">🏥 Hospital Management System</h1>
 
-A console-based Hospital Management System developed using Core Java to manage patients,
-doctors,appointments, and billing operations.
+<p align="center">
+  A Console-Based Application Developed Using Core Java
+</p>
 
-📌 Project Overview
+<hr>
 
-This application provides a simple menu-driven interface to perform basic hospital management 
-operations. It uses Object-Oriented Programming concepts and ArrayList to store and manage records.
+<h3>📌 Project Overview</h3>
 
-✨ Features
-1. Patient Management
-.Register new patients.
-.View patient details.
-.Validate duplicate patient IDs.
-2. Doctor Management
-Add doctor details.
-View doctor information.
-Manage specialization and consultation fees.
-Validate doctor availability.
-3. Appointment Management
-Book appointments for registered patients.
-Select doctors using Doctor ID.
-Schedule appointments by date and time.
-Prevent duplicate appointments for the same doctor.
-Cancel appointments.
-4. Billing Management
-Generate patient bills.
-Calculate consultation fees and additional charges.
-Validate payment details.
-5. Input Validation
-Validate patient and doctor IDs.
-Handle invalid inputs.
-Display appropriate error messages.
-Handle records that are not found.
-🛠️ Technologies Used
-Technology	Description
-Java	Programming Language
-Eclipse IDE	Development Environment
-ArrayList	Data Management
-OOP	Object-Oriented Programming
-Exception Handling	Error Handling
-📂 Project Structure
+<p>
+The Hospital Management System is console based Java application developed to maintain and manage the basic hospital
+  operations.It allows to register the patient ,add doctors,book appointments and generate bills through the meu-driven
+  interface.
+</p>
+
+<h2>✨ Features</h2>
+
+<h3>1. Patient Management</h3>
+<ul>
+  <li>Register new patients</li>
+  <li>Patient Id,name,age ,gender,phone,address</li>
+  <li>Search by patient ID</li>
+  <li>View patient details</li>
+  <li>Validate duplicate patient IDs</li>
+</ul>
+
+<h3>2. Doctor Management</h3>
+<ul>
+  <li>Add doctor details</li>
+  <li>Doctor name,Id,fee,specialization</li>
+  <li>View doctor information</li>
+  <li>search by doctor ID</li>
+</ul>
+
+<h3>3. Appointment Management</h3>
+<ul>
+  <li>Book appointments between patient and doctor</li>
+  <li>Prevent duplicate doctor appointments at same date and time</li>
+  <li>Schedule the appoiments based on the already booked appointments</li>
+  <li>view all appointments</li>
+  <li>Cancel appointments</li>
+</ul>
+
+<h3>4. Billing Management</h3>
+<ul>
+  <li>Generate patient bills</li>
+  <li>Calculate consultation fees and additional charges</li>
+  <li>Display the final amount and validate the payment</li>
+</ul>
+
+<h2>🛠️ Technologies Used</h2>
+
+<ul>
+  <li><B>Programming Language :</B>Java</li>
+  <li><B>IDE :</B>Eclipse IDE</li>
+  <li><B>Concepts :</B>Core Java,OOP,Encapsulation,ArrayList,Loops,Conditional Statements,Exception Handling</li>
+  <li><b>Application Type :</b>Console Based Application</li>
+</ul>
+
+<h2>📂 Project Structure</h2>
+
+<details>
+<summary><b>View Project Structure</b></summary>
+
+<br>
+
+<pre>
 Hospital-Management-System/
 │
 ├── src/
@@ -52,20 +77,25 @@ Hospital-Management-System/
 │       └── Management.java
 │
 └── README.md
-▶️ How to Run the Project
+</pre>
 
-Clone this repository:
+</details>
 
-git clone YOUR_REPOSITORY_URL
-Open Eclipse IDE.
-Import the project.
-Open Management.java.
-Run as Java Application.
-Follow the menu options displayed in the console.
-🎯 Learning Outcomes
-Practical experience with Core Java.
-Understanding of OOP concepts.
-Working with ArrayList.
-Implementing CRUD operations.
-Exception handling and input validation.
-Developing a menu-driven console application.oved problem-solving and logical thinking.
+<h2>▶️ How to Run</h2>
+
+<ol>
+  <li>Clone the repository.</li>
+  <li>Import the project into Eclipse IDE.</li>
+  <li>Open Management.java.</li>
+  <li>Run as Java Application.</li>
+  <li>Follow the console menu.</li>
+</ol>
+
+<h2>Learning Outcome</h2>
+<p>
+  
+Gained practical experience in Core Java,understood Object-Oriented Programming concepts,
+Learned to manage multiple records using ArrayList,implemented CRUD operations,practiced validation 
+and exception handling,improved problem-solving and logical thinking.
+</p>
+
